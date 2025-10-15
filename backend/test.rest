@@ -1,0 +1,21 @@
+###
+POST http://localhost:8080/films/create
+Content-Type: application/json
+
+{
+  "name": "Avengers",
+  "picture": "http://localhost:8080/uploads/avengers.jpg",
+  "showtime": "2025-10-11 16:30", 
+  "description": "Film Marvel"
+}
+
+###
+PUT http://localhost:8080/films/edit/9
+Content-Type: application/json
+
+{
+  "name": "Gladiator II",
+  "picture": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+  "showtime": "2025-10-11 16:30", 
+  "description": "Good Movie"
+}
